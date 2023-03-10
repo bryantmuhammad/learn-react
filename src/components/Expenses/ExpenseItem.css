@@ -5,12 +5,13 @@
   padding: 0.5rem;
   margin: 1rem 0;
   background-color: #4b4b4b;
+
+
 }
 
 .expense-item__description {
   display: flex;
   flex-direction: column;
-  gap: rem;
   align-items: flex-end;
   flex-flow: column-reverse;
   justify-content: flex-start;
@@ -20,7 +21,6 @@
 .expense-item h2 {
   color: #3a3a3a;
   font-size: 1rem;
-  flex: 1;
   margin: 0 1rem;
   color: white;
 }
@@ -39,7 +39,7 @@
   .expense-item__description {
     flex-direction: row;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: space-between;
     flex: 1;
   }
 
