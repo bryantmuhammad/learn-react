@@ -24,6 +24,8 @@ const tempExpenses = [
   },
 ];
 
+// console.log(tempExpenses[0].date.getFullYear());
+
 const App = () => {
   const [expenses, setExpenses] = useState(tempExpenses);
 
